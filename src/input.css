@@ -8,6 +8,11 @@ body {
   @apply fixed z-[9999] bg-white/80 backdrop-blur-sm dark:bg-dark/50;
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
+audio::-webkit-media-controls-panel{
+  @apply bg-transparent fill-transparent ;
+  box-shadow: inset 0 -5px 0 rgba(199, 54, 89, 0.50);
+  drop-shadow:0 20px 20px rgba(199, 54, 89, 0.50);
+}
 .hamburger-line {
   @apply w-[30px] h-[2px] my-2 bg-dark block dark:bg-white;
 }
